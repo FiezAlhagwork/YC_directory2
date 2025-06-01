@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { StartupTypeCard } from "@/app/(root)/page";
 import { formatData } from "@/lib/utils";
 import { EyeIcon } from "lucide-react";
@@ -51,7 +52,7 @@ const StartupCard = ({ post }: { post: StartupTypeCard }) => {
               {description}
           </p>
           
-          <img src={image} alt="placeholder" className="startup-card_img"/>
+          <img src="/robot.jpg" alt="placeholder" className="startup-card_img"  />
 
       </Link>
 
